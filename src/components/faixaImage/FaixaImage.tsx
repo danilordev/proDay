@@ -6,7 +6,7 @@ function FaixaImage (){
         <>
         <div>
 
-        <Faixa src="src\img\fundoday.png" />   
+        <Faixa src="src/img/fundoday.png" />   
         </div>
         </>
     );
