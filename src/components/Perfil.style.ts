@@ -30,7 +30,9 @@ margin: 20px;
 export const ContainerP = styled.div`
 display: flex;
 padding: 40px;
-border-bottom: 50px solid green;
+border-bottom: 10px solid black;
+
+/* border-bottom: 50px solid green; */
 @media only screen and (max-width: 445px) {
    padding-top: 50px;
   }

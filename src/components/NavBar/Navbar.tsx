@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function BasicExample() {
   return (
-    <Navbar className="fixed-top" bg="light" expand="lg">
+    <Navbar className="fixed-top shadow p-3 mb-5 bg-white rounded" bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Daiany Noronha</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
