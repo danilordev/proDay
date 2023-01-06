@@ -1,15 +1,13 @@
 import { ContainerP, FotosImg, ImgF } from "./Perfil.style";
-// import DayN from "../img/dayPerfil.jpeg";
-// import Cerejeira from "../img/laranjeira.png";
+import DayN from "../img/dayPerfil.jpeg";
 // import React from "react";
 
 function Perfil() {
   return (
     <>
-    <ContainerP>
-      
+      <ContainerP>
         <FotosImg>
-          <ImgF src="src/img/dayPerfil.jpeg" />
+          <ImgF src={DayN} />
           <div className="perfil">
             <h1>Daiany Noronha</h1>
             <h3>Professora Polivalente</h3>
@@ -30,14 +28,12 @@ function Perfil() {
               </h6>
               <p>Aberta para novas oportunidades!</p>
               <p>
-                
                 <strong>bora bater um papo?</strong>
               </p>
             </div>
           </div>
         </FotosImg>
-        
-    </ContainerP>
+      </ContainerP>
     </>
   );
 }
