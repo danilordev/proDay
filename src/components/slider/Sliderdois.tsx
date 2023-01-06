@@ -9,6 +9,9 @@ import "swiper/css/pagination";
 
 import { CappTS } from "./Slider.style";
 
+import ObsP from "../../img/imgBlog/observPlanta.jpeg";
+import CadAberto from "../../img/imgBlog/cadernoAberto.jpeg";
+import Caderno from "../../img/imgBlog/caderno.jpeg";
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
@@ -24,9 +27,9 @@ function AppTSD() {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="src\img\imgBlog\observPlanta.jpeg" /></SwiperSlide>
-        <SwiperSlide><img src="src\img\imgBlog\cadernoAberto.jpeg" /></SwiperSlide>
-        <SwiperSlide><img src="src\img\imgBlog\caderno.jpeg" /></SwiperSlide>
+        <SwiperSlide><img src={ObsP}/></SwiperSlide>
+        <SwiperSlide><img src={CadAberto} /></SwiperSlide>
+        <SwiperSlide><img src={Caderno}/></SwiperSlide>
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>
