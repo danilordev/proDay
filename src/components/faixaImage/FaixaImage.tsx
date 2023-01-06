@@ -1,5 +1,5 @@
 import {Faixa} from "./FaixaImage.style";
-import faixaI from "../../img/fundoday.png";
+import faixaI from "../faixaImage/fundoday.png";
 
 function FaixaImage (){
     return (

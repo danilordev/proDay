@@ -24,9 +24,9 @@ function AppTS() {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="src\img\imgBlog\riscaCarvao.jpeg" /></SwiperSlide>
-        <SwiperSlide><img src="src\img\imgBlog\maoCarvao.jpeg" /></SwiperSlide>
-        <SwiperSlide><img src="src\img\imgBlog\peCarvao.jpeg" /></SwiperSlide>
+        <SwiperSlide><img src="src/img/imgBlog/riscaCarvao.jpeg" /></SwiperSlide>
+        <SwiperSlide><img src="src/img/imgBlog/maoCarvao.jpeg" /></SwiperSlide>
+        <SwiperSlide><img src="src/img/imgBlog/peCarvao.jpeg" /></SwiperSlide>
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>
