@@ -8,7 +8,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import { CappTS } from "./Slider.style";
-
+import Risca from "../../img/imgBlog/riscaCarvao.jpeg";
+import MaoCarvao from "../../img/imgBlog/maoCarvao.jpeg";
+import PeCarvao from "../../img/imgBlog/peCarvao.jpeg"
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
@@ -24,9 +26,9 @@ function AppTS() {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
       >
-        <SwiperSlide><img src="src/img/imgBlog/riscaCarvao.jpeg" /></SwiperSlide>
-        <SwiperSlide><img src="src/img/imgBlog/maoCarvao.jpeg" /></SwiperSlide>
-        <SwiperSlide><img src="src/img/imgBlog/peCarvao.jpeg" /></SwiperSlide>
+        <SwiperSlide><img src={Risca}/></SwiperSlide>
+        <SwiperSlide><img src={MaoCarvao} /></SwiperSlide>
+        <SwiperSlide><img src={PeCarvao} /></SwiperSlide>
         {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>
